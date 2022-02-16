@@ -23,3 +23,5 @@ netcat.py -t 192.168.0.1 -p 5555 -l -u=file.txt # upload file
 netcat.py -t 192.168.0.1 -p 5555 -l -e "cat /etc/passwd" # execute command
 echo 'ABC' | ./netcat.py 192.168.0.1 -p 135 # echo text to server port 135
 netcat.py -t 192.168.0.1 -p 5555 # connect to server`
+
+![image](https://user-images.githubusercontent.com/67962548/154303412-8b0a78f5-fa6a-47e9-8dc5-37531ffaaa0f.png)
